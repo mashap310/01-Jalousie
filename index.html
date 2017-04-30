@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Жалюзи</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+ 
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 logotype">
+						<img src="img/logo.png" alt="Логотип Жалюзи" class="img-responsive">
+					</div>
+					<div class="col-sm-6 text-center descript">
+						<h4>Производство, продажа и установка жалюзи</h4>
+						<h5>в Киеве и Украине</h5>
+					</div>
+					<div class="col-sm-3 phone_number">
+						<h3><a href="tel: 88888888888">8 (888) 888-88-88</a></h3>
+						<p>Режим работы с 9 <sup>00</sup> до 18<sup>00</sup></p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<nav id="top_nav">
+			 <div class="container">
+				 <div class="row">
+					 <ul class="list-inline">
+						 <a href="#main">
+							 <li>Главная</li>
+						 </a>
+						 <a href="#types">
+							 <li>Виды жалюзи</li>
+						 </a>
+						 <a href="#portfolio">
+							 <li>Наши работы</li>
+						 </a>
+						 <a href="#offer">
+							 <li>Акция</li>
+						 </a>
+						 <a href="#feedback">
+							 <li>Отзывы</li>
+						 </a>
+						 <a href="#contacts">
+							 <li>Контакты</li>
+						 </a>
+					 </ul>
+				 </div>
+			 </div>
+		 </nav> 
+
+		 <section id="main">
+			 <div class="container">
+				 <div class="row main_header">
+					 <h1> <span>Установим жалюзи в вашей квартире</span><br>
+					 <span>за 2 часа с полной гарантией</span><br>
+					 <span>и бесплатной доставкой</span></h1>
+				 </div>
+				 <div>
+					 <div class="row">
+						 <h3>Закажите выезд замерщика на дом <span>Это бесплатно!</span></h3>
+					 </div>
+					 <div>
+						 <div class="row main_buttons">
+							<button data-toggle="modal" id="get_measurer" href="#get_measurer_modal">Вызвать замерщика</button>
+							<a href="#types"><button id="get_types">Выбрать жалюзи</button></a>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </section>
+
+		 <section id="types">
+			 <div class="container">
+				 <div class="row">
+					 <div class="section_header text-center">
+						 <h2>Виды жалюзи</h2>
+					 </div>
+					 <div>
+						 <div class="row text-center">
+							 <div class="col-md-3">
+								 <div class="card">
+									 <img src="img/types-1.jpg" alt="Горизонтальные жалюзи" class="img-responsive center-block">
+									 <h4>Горизонтальные жалюзи</h4>
+									 <br>
+									 <button class="more_btn" data-toggle="modal" href="#">Подробнее</button>
+									 <button class="offer_btn" data-toggle="modal" href="#">Заказать</button>
+								 </div>
+							 </div>
+							 <div class="col-md-3">
+								 <div class="card">
+									 <img src="img/types-2.jpg" alt="Вертикальные жалюзи" class="img-responsive center-block">
+									 <h4>Вертикальные жалюзи</h4>
+									 <br>
+									 <button class="more_btn" data-toggle="modal" href="#">Подробнее</button>
+									 <button class="offer_btn" data-toggle="modal" href="#">Заказать</button>
+								 </div>
+							 </div>
+							 <div class="col-md-3">
+								 <div class="card">
+									 <img src="img/types-3.jpg" alt="Рулонные жалюзи" class="img-responsive center-block">
+									 <h4>Рулонные жалюзи</h4>
+									 <br>
+									 <button class="more_btn" data-toggle="modal" href="#">Подробнее</button>
+									 <button class="offer_btn" data-toggle="modal" href="#">Заказать</button>
+								 </div>
+							 </div>
+							 <div class="col-md-3">
+								 <div class="card">
+									 <img src="img/types-4.jpg" alt="Жалюзи плиссе" class="img-responsive center-block">
+									 <h4>Жалюзи плиссе</h4>
+									 <br>
+									 <button class="more_btn" data-toggle="modal" href="#">Подробнее</button>
+									 <button class="offer_btn" data-toggle="modal" href="#">Заказать</button>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </section>
+
+		 <section id="help">
+			 <div class="container">
+				 <div class="row">
+					 <div class="col-md-6 col-md-offset-2">
+						 <h3>Не знаете какие жалюзи выбрать?</h3>
+						 <br>
+						 <p>Оставьте заявку на консультацию и наш впециалист подробно ответит <br> на все Ваши вопросы. Это бесплатно. </p>
+						 <br>
+						 <button id="free_consult" data-toggle="modal" href="#">Бесплатная консультация</button>
+					 </div>
+					 <div class="col-md-2">
+						 <img src="img/help_img.jpg" alt="Free consultation" class="img-responsive help_img center-block">
+					 </div>
+				 </div>
+			 </div>
+		 </section>
+
+		 <section id="portfolio">
+			 <div class="container">
+				 <div class="row">
+					 <div class="section_header text-center">
+						 <h2>Наши работы</h2>
+					 </div>
+				 </div>
+				 <div class="row">
+					 <div class="col-md-8 col-md-offset-2">
+					 	<div class="slider">
+						 <div class="fotorama" 
+						 data-nav="thumbs"
+						 data-ratio="4/3">
+							 <img src="img/portfolio/1.jpg" alt="">
+							 <img src="img/portfolio/2.jpg" alt="">
+							 <img src="img/portfolio/3.jpg" alt="">
+							 <img src="img/portfolio/4.jpg" alt="">
+							 <img src="img/portfolio/5.jpg" alt="">
+							 <img src="img/portfolio/6.jpg" alt="">
+							 <img src="img/portfolio/7.jpg" alt="">
+							 <img src="img/portfolio/8.jpg" alt="">
+							 <img src="img/portfolio/9.jpg" alt="">
+						 </div>
+					 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </section>
+		
+			<section id="offer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="img/gift.jpg" alt="Gift" class="img-responsive center-block gift">
+						</div>
+						<div class="col-md-9">
+							<h4>Акция</h4>
+							<br>
+							<h3>Закажите установку жалюзи</h3>
+							<p>И получите в подарок москитную сетку для окна</p>
+							<div class="row">
+									<div class="col-md-4">
+										<form action="#">
+											<input name="name" type="text" required placeholder="Имя..." class="form-control form-input">
+									</div>
+									<div class="col-md-4">
+										<input class="phone" type="text" required placeholder="Телефон..." class="form-control form-input">
+									</div>
+									<div class="col-md-4">
+										<button type="submit">Заказать жалюзи</button>
+										</form>
+								 	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="feedback">
+				<div class="container">
+					<div class="row">
+						<div class="section_header text-center">
+							<h2>Feedbacks of my work</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="feedback_slider">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+								<ol class="carousel-indicators">
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<div class="col-md-4">
+										<div class="fotorama">
+											<img src="img/feedback/1/1.jpg" alt="">
+											<img src="img/feedback/1/2.jpg" alt="">
+											<img src="img/feedback/1/3.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="row">
+											<div class="col-md-2">
+												<img src="img/avatar-1.jpg" alt="" class="img-circle center-block">
+											</div>
+											<div class="col-md-10">
+												<h5>Yaha Yaha</h5>
+												<a href="#">vk.com/id12123414</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="audio">
+												<audio src="audio/1.mp3"></audio>
+											</div>
+										</div>
+										<div class="row">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio, inventore consequatur possimus quo illum praesentium minima est, doloribus asperiores tenetur laborum nobis deleniti laudantium provident. Optio iste at reprehenderit?
+											</p>
+										</div>
+									</div>									
+								</div>	
+										<div class="item">
+																				<div class="col-md-4">
+										<div class="fotorama">
+											<img src="img/feedback/1/1.jpg" alt="">
+											<img src="img/feedback/1/2.jpg" alt="">
+											<img src="img/feedback/1/3.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="row">
+											<div class="col-md-2">
+												<img src="img/avatar-1.jpg" alt="" class="img-circle center-block">
+											</div>
+											<div class="col-md-10">
+												<h5>Yaha Yaha</h5>
+												<a href="#">vk.com/id12123414</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="audio">
+												<audio src="audio/1.mp3"></audio>
+											</div>
+										</div>
+										<div class="row">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio, inventore consequatur possimus quo illum praesentium minima est, doloribus asperiores tenetur laborum nobis deleniti laudantium provident. Optio iste at reprehenderit?
+											</p>
+										</div>
+									</div>
+										</div>	
+										<div class="item">
+																				<div class="col-md-4">
+										<div class="fotorama">
+											<img src="img/feedback/1/1.jpg" alt="">
+											<img src="img/feedback/1/2.jpg" alt="">
+											<img src="img/feedback/1/3.jpg" alt="">
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="row">
+											<div class="col-md-2">
+												<img src="img/avatar-1.jpg" alt="" class="img-circle center-block">
+											</div>
+											<div class="col-md-10">
+												<h5>Yaha Yaha</h5>
+												<a href="#">vk.com/id12123414</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="audio">
+												<audio src="audio/1.mp3"></audio>
+											</div>
+										</div>
+										<div class="row">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio, inventore consequatur possimus quo illum praesentium minima est, doloribus asperiores tenetur laborum nobis deleniti laudantium provident. Optio iste at reprehenderit?
+											</p>
+										</div>
+									</div>
+										</div>									
+								
+							</div>
+
+							<!-- Controls -->
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer id="contacts">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="map">
+								
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h2>Контакты</h2>
+							<div class="row">
+							<address>
+								<p id="address">
+									Адрес:
+								</p>
+								<p id="Kyiv">
+									Киев, Киевская 28, 73
+								</p>
+							</address>
+							</div>
+							<div class="row">
+								<div class="phone_footer">
+								<div id="phone_footer">
+									<p id="number">
+										8 (888) 888-88-88
+									</p>
+							</div>
+								</div>
+								<div class="row">
+									<a href=""><img src="img/social-1.png" alt=""></a>
+									<a href=""><img src="img/social-2.png" alt=""></a>
+									<button data-toggle="modal" href="#">Задать вопрос</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 details">
+							<h5>OOO "Жалюзи"</h5>
+							<p>
+								ОГРН 88888888888888
+								<br>
+								ИНН 888888888888888
+							</p>
+						</div>
+						<div class="col-md-4 policy">
+							<a data-toggle="modal" href="#">Политика конфиденциальности</a>
+							<br>
+							<p>Киев, 2017</p>
+						</div>
+						<div class="col-md-4 petrova">
+							<h4>Сайт разработан:</h4>
+							<a href="#">Petrova</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Modal -->
+				<div class="modal fade" id="get_measurer_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-sm">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								
+							</div>
+							<div class="modal-body text-center">
+							 <div class="row">
+								 <div class="header_modal">
+								 	<h4>Для вызовава Машуньчика <br>оставьте свои данные</h4>
+								 </div>
+							 </div>
+							 <div class="row">
+							 	<form action="send" method="post">
+							 	<input type="hidden" name="what" value="Участие в Акции">
+							 		<div class="col-xs-12">
+							 			<input name="name" type="text" required placeholder="Name..." class="form-control form-input">
+							 		</div>
+							 		<div class="col-xs-12">
+							 			<input class="phone" id="phone-1" type="text" required placeholder="Phone..." class="form-control form-input">
+							 		</div>
+							 		<div class="col-xs-12">
+							 			<button type="submit">Вызвать Машуньчика</button>
+							 		</div>
+							 	</form>
+							 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+
+		// Закрепить маню сверху при прокрутке
+<script>
+var h_hght = 110; // высота шапки
+var h_mrg = 0;    // отступ когда шапка уже не видна
+                 
+$(function(){
+ 
+    var elem = $('#top_nav');
+    var top = $(this).scrollTop();
+     
+    if(top > h_hght){
+        elem.css('top', h_mrg);
+    }           
+     
+    $(window).scroll(function(){
+        top = $(this).scrollTop();
+         
+        if (top+h_mrg < h_hght) {
+            elem.css('top', (h_hght-top));
+        } else {
+            elem.css('top', h_mrg);
+        }
+    });
+ 
+});
+</script>
+
+		<script>
+			$(document).ready(
+					function() {
+							$("html").niceScroll({cursorcolor:"#000"});
+					}
+			);
+		</script>
+
+		<!-- fotorama.css & fotorama.js. -->
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+	</body>
+</html>
